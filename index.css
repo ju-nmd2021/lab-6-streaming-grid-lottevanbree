@@ -11,7 +11,7 @@ nav ul {
   z-index: 2;
   position: relative;
 }
-a {
+nav ul a {
   font-weight: 300;
   display: inline-block;
   text-decoration: none;
@@ -26,7 +26,7 @@ li {
   display: inline-block;
   padding-top: 1rem;
 }
-nav a:hover {
+nav ul a:hover {
   text-decoration: underline;
 }
 
@@ -116,7 +116,7 @@ span{
   font-style: italic;
 }
 
-div button, main button {
+div .buttondis, main button {
   background-color: #00000000;
   border: 1px solid white;
   color: white;
@@ -129,6 +129,7 @@ div button, main button {
   margin-right: 1rem;
   border-radius: 0.3rem;
   margin-bottom: 3rem;
+  text-decoration: none;
 }
 
 section {
@@ -194,8 +195,6 @@ section h2 {
   max-width: 15vw;
 }
 
-
-
 article img{
   padding-bottom: 3rem;
   max-height: 7vh;
@@ -204,7 +203,7 @@ article img{
 main button {
   margin-top: 1rem;
 }
-button:hover {
+button:hover, .buttondis:hover {
   background-color: white;
   color: black;
 }
