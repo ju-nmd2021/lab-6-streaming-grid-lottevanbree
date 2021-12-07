@@ -1,0 +1,225 @@
+html {
+  background-color: #0D0D0D;
+}
+main {
+  margin-top: 85vh;
+}
+
+nav ul {
+  text-align: right;
+  padding-right: 3rem;
+  z-index: 2;
+  position: relative;
+}
+a {
+  font-weight: 300;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+  padding-left: 5rem;
+}
+li {
+  display: inline-block;
+  padding-top: 1rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+li:nth-child(1) {
+  display: block;
+  text-align: left;
+}
+li img {
+  position: absolute;
+  top: 1.5rem;
+  max-width: 4vw;
+}
+
+li:nth-child(1) {
+  position: relative;
+}
+
+header {
+  position: relative;
+}
+
+.circle2 {
+  position: absolute;
+  background-color: #92AC94;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+  opacity: 0.5;
+
+}
+
+.half {
+  position: absolute;
+  height:22rem;
+  width:11rem;
+  border-radius: 0 22rem 22rem 0;
+  background-color: #c1e6c5;
+  opacity: 0.5;
+  z-index: 3;
+  top: -41%;
+  left: 50%;
+}
+
+.full {
+  position: relative;
+  background-color: #92AC94;
+  border-radius: 50%;
+  opacity: 0.5;
+  width: 12rem;
+  height: 12rem;
+  top:18.5rem;
+  left: 19.5rem;
+}
+
+.top-page {
+  position: relative;
+}
+
+.headphones {
+  max-height: 75vh;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  left:10%;
+}
+
+.element-head {
+  position: relative;
+  margin-left: 50vw;
+  top: 8rem;
+}
+
+.subtitle {
+  line-height: 2.8rem;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: right;
+  position: absolute;
+  z-index: 3;
+  color: white;
+  top: 22rem;
+}
+
+span{
+  font-style: italic;
+}
+
+div button, main button {
+  background-color: #00000000;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-family: sans-serif;
+  font-size: 0.6rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  margin-top: 3.5rem;
+  margin-right: 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 3rem;
+}
+
+section {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 20rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.plan h3 {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 100;
+}
+h2 {
+  letter-spacing: 0.1rem;
+  margin-top: 3rem;
+}
+
+.why {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 14rem;
+  grid-gap: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.plan article:nth-child(1), .plan article:nth-child(3) {
+  background-color: rgba(193, 230, 197, 0.5);
+}
+.plan article:nth-child(2){
+  background-color: rgba(145, 172, 147, 0.507);
+}
+
+.plan article {
+  border-radius: 1rem;
+  max-width: 20vw;
+}
+section p{
+  font-weight: 100;
+  font-size: 0.7rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  line-height: 1rem;;
+}
+
+section h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.why article {
+  max-width: 15vw;
+}
+
+
+
+article img{
+  padding-bottom: 3rem;
+  max-height: 7vh;
+  margin-bottom: 0rem;
+}
+main button {
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  margin: 2rem;
+  margin-top: 14rem;
+  text-align: center;
+  opacity: 0.5;
+}
+footer a {
+  font-size: 0.5rem;
+  display: inline;
+}
+footer img {
+  padding-bottom: 3rem;
+  max-width: 3%;
+}
